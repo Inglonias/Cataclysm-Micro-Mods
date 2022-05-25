@@ -1,0 +1,17 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "necropolis_a_37",
+    "copy-from": "generic_necropolis_surface_building",
+    "name": "furniture store",
+    "sym": ">",
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "necropolis_a_74",
+    "copy-from": "generic_necropolis_surface_building",
+    "name": "bar",
+    "color": "magenta"
+  }
+]

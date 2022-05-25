@@ -1,0 +1,71 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "dump",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "dump",
+    "sym": "D",
+    "color": "brown",
+    "flags": [ "SOURCE_FABRICATION", "SOURCE_CONSTRUCTION" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "recyclecenter", "recyclecenter_1", "recyclecenter_2" ],
+    "copy-from": "generic_city_building",
+    "name": "recycle center",
+    "sym": "R",
+    "color": "green",
+    "extend": { "flags": [ "SOURCE_FABRICATION", "SOURCE_CONSTRUCTION" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "recyclecenter_roof", "recyclecenter_roof_1", "recyclecenter_roof_2" ],
+    "copy-from": "generic_city_building",
+    "name": "recycle center roof",
+    "sym": "R",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "landfill",
+    "copy-from": "generic_city_building",
+    "name": "landfill",
+    "sym": "L",
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "junkyard_1a", "junkyard_roof_1a", "junkyard_1b", "junkyard_roof_1b", "junkyard_2a", "junkyard_2b" ],
+    "copy-from": "generic_city_building",
+    "name": "junkyard",
+    "sym": "J",
+    "color": "brown",
+    "extend": { "flags": [ "SOURCE_FABRICATION", "SOURCE_CONSTRUCTION", "SOURCE_VEHICLES" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_regional_dump",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "regional dump",
+    "sym": "d",
+    "color": "brown",
+    "flags": [ "SOURCE_FABRICATION", "SOURCE_CONSTRUCTION", "SOURCE_VEHICLES" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cs_open_sewer",
+    "copy-from": "generic_city_building",
+    "name": "open sewer",
+    "sym": "s",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cs_city_dump_small",
+    "copy-from": "generic_city_building",
+    "name": "small dump",
+    "sym": "d",
+    "color": "brown",
+    "extend": { "flags": [ "SOURCE_FABRICATION", "SOURCE_CONSTRUCTION", "SOURCE_VEHICLES" ] }
+  }
+]

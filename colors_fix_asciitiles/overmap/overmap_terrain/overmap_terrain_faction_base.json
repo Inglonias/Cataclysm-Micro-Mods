@@ -1,0 +1,62 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_farm_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "farm survey",
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_garage_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "garage survey",
+    "color": "light_gray"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_kitchen_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "kitchen survey",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_blacksmith_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "blacksmith survey",
+    "color": "dark_gray"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_canteen_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "canteen survey",
+    "color": "green",
+    "delete": { "flags": [ "SOURCE_PEOPLE" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_canteen_2_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "canteen survey 2",
+    "color": "green",
+    "delete": { "flags": [ "SOURCE_PEOPLE" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_farm_2_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "farm survey 2",
+    "color": "brown",
+    "delete": { "flags": [ "SOURCE_PEOPLE" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "faction_base_garage_2_0",
+    "copy-from": "faction_base_camp_0",
+    "name": "garage survey 2",
+    "color": "light_gray",
+    "delete": { "flags": [ "SOURCE_PEOPLE" ] }
+  }
+]

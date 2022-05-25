@@ -1,0 +1,278 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "art_gallery",
+    "copy-from": "generic_city_building",
+    "name": "art gallery",
+    "sym": "a",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "art_gallery_roof",
+    "copy-from": "generic_city_building",
+    "name": "art gallery roof",
+    "sym": "a",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "state_park_0_0", "state_park_0_1", "state_park_1_1" ],
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "state park",
+    "sym": "S",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "state_park_1_0",
+    "copy-from": "generic_city_building",
+    "name": "state park parking",
+    "sym": "$",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "fishing_pond_0_0", "fishing_pond_0_1", "fishing_pond_1_0", "fishing_pond_1_1" ],
+    "copy-from": "generic_city_building",
+    "name": "fishing pond",
+    "sym": "S",
+    "color": "blue"
+  },
+  {
+    "id": [ "small_wooded_trail", "small_wooded_trail_2" ],
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building",
+    "name": "small wooded trail",
+    "sym": "S",
+    "color": "green"
+  },
+  {
+    "id": "pavilion",
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building",
+    "name": "pavilion",
+    "sym": "A",
+    "color": "green"
+  },
+  {
+    "id": "pavilion_roof",
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building",
+    "name": "pavilion roof",
+    "sym": "A",
+    "color": "green"
+  },
+  {
+    "id": "pavilion_1",
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building",
+    "looks_like": "pavilion",
+    "name": "pavilion",
+    "sym": "A",
+    "color": "green"
+  },
+  {
+    "id": "pavilion_roof_1",
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building",
+    "name": "pavilion roof",
+    "sym": "A",
+    "color": "green"
+  },
+  {
+    "id": "hunting_blind",
+    "type": "overmap_terrain",
+    "name": "hunting blind",
+    "sym": "H",
+    "color": "green",
+    "see_cost": 5,
+    "mondensity": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "NatureTrail_1a", "NatureTrail_1b" ],
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "nature trail",
+    "sym": "S",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "PublicPond_1a", "PublicPond_1b" ],
+    "copy-from": "generic_city_building",
+    "name": "public pond",
+    "sym": "P",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "BotanicalGarden_1a", "BotanicalGarden_1b" ],
+    "name": "botanical garden",
+    "sym": "g",
+    "color": "green",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK", "SOURCE_FARMING" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "BotanicalGarden_1a_roof", "BotanicalGarden_1b_roof" ],
+    "name": "botanical garden",
+    "sym": "g",
+    "color": "green",
+    "see_cost": 5,
+    "mondensity": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "TreeFarm_1a",
+    "name": "tree farm",
+    "sym": "T",
+    "color": "green",
+    "see_cost": 5,
+    "mondensity": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "zoo_0_0", "zoo_1_0" ],
+    "copy-from": "generic_city_building",
+    "name": "zoo parking",
+    "sym": "P",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "zoo_2_0",
+    "copy-from": "generic_city_building",
+    "name": "zoo pavilion",
+    "sym": "P",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "zoo_0_1", "zoo_1_1", "zoo_2_1", "zoo_0_2", "zoo_1_2", "zoo_2_2" ],
+    "copy-from": "generic_city_building",
+    "name": "zoo",
+    "sym": "Z",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "zoo_0_1_roof", "zoo_1_1_roof", "zoo_2_1_roof", "zoo_0_2_roof", "zoo_1_2_roof", "zoo_2_2_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "zoo roof",
+    "sym": "Z",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "movietheater_0_0",
+      "movietheater_2_0",
+      "movietheater_0_1",
+      "movietheater_1_1",
+      "movietheater_2_1",
+      "movietheater_0_2",
+      "movietheater_1_2",
+      "movietheater_2_2"
+    ],
+    "copy-from": "generic_city_building",
+    "name": "movie theater",
+    "sym": "M",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "movietheater_1_0", "movietheater_roof_1_0" ],
+    "copy-from": "generic_city_building",
+    "name": "movie theater entrance",
+    "sym": "M",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "movietheater_roof_0_0",
+      "movietheater_roof_2_0",
+      "movietheater_roof_0_1",
+      "movietheater_roof_1_1",
+      "movietheater_roof_2_1",
+      "movietheater_roof_0_2",
+      "movietheater_roof_1_2",
+      "movietheater_roof_2_2"
+    ],
+    "copy-from": "generic_city_building",
+    "name": "movie theater",
+    "sym": "M",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "music_venue", "music_venue_1" ],
+    "copy-from": "generic_city_building",
+    "name": "music venue",
+    "sym": "M",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "music_venue_roof", "music_venue_1_roof", "music_venue_1_roof_top" ],
+    "copy-from": "generic_city_building",
+    "name": "music venue roof",
+    "sym": "M",
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "stripclub", "stripclub_1", "stripclub_2" ],
+    "copy-from": "generic_city_building",
+    "name": "strip club",
+    "sym": "s",
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "stripclub_roof", "stripclub_roof_1", "stripclub_roof_2" ],
+    "copy-from": "generic_city_building",
+    "name": "strip club roof",
+    "sym": "s",
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "gym_fitness", "gym_fitness_1", "gym_fitness_2ndFloor_1" ],
+    "name": "fitness gym",
+    "copy-from": "generic_city_building",
+    "color": "light_cyan"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "gym_fitness_roof", "gym_fitness_roof_1" ],
+    "name": "fitness gym roof",
+    "copy-from": "generic_city_building",
+    "color": "light_cyan"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dojo", "dojo_1" ],
+    "name": "dojo",
+    "copy-from": "generic_city_building",
+    "color": "light_cyan"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dojo_roof", "dojo_upper_roof", "dojo_roof_1", "dojo_upper_roof_1" ],
+    "name": "dojo roof",
+    "copy-from": "generic_city_building",
+    "color": "light_cyan"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cs_public_art_piece",
+    "copy-from": "generic_city_building",
+    "name": "public art piece",
+    "sym": "a",
+    "color": "white"
+  }
+]

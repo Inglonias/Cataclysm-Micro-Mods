@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Fewer_Soldiers",
+    "name": "Fewer Soldier Extras",
+    "authors": [ "Inglonias" ],
+    "description": "Cuts the number of dead soldier squads you find in half.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

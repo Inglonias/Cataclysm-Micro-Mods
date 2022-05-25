@@ -1,0 +1,26 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_camp_57",
+    "name": "silo",
+    "sym": "#",
+    "color": "brown",
+    "see_cost": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_camp_66",
+    "name": "barn",
+    "sym": "#",
+    "color": "brown",
+    "see_cost": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_camp_66_roof",
+    "name": "barn roof",
+    "sym": "#",
+    "color": "brown",
+    "see_cost": 2
+  }
+]

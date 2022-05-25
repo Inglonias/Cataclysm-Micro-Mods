@@ -1,0 +1,128 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "sai",
+    "name": "serving area interface",
+    "sym": "0",
+    "color": "magenta",
+    "see_cost": 5
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "small_storage_units", "small_storage_units_1" ],
+    "copy-from": "generic_city_building",
+    "name": "small storage units",
+    "sym": "#",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "small_storage_units_roof", "small_storage_units_roof_1" ],
+    "copy-from": "generic_city_building",
+    "name": "small storage units roof",
+    "sym": "#",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lumberyard_0_0", "lumberyard_0_1", "lumberyard_1_0", "lumberyard_1_1" ],
+    "copy-from": "generic_city_building",
+    "name": "lumberyard",
+    "sym": "L",
+    "color": "green",
+    "spawns": { "group": "GROUP_WASP_FORAGER", "population": [ 1, 3 ], "chance": 10 },
+    "extend": { "flags": [ "SOURCE_CONSTRUCTION", "SOURCE_FABRICATION" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lumberyard_0_0_roof", "lumberyard_0_1_roof", "lumberyard_1_0_roof", "lumberyard_1_1_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "lumberyard",
+    "sym": "L",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lumbermill_0_0", "lumbermill_0_1", "lumbermill_1_0", "lumbermill_1_1" ],
+    "copy-from": "generic_city_building",
+    "name": "lumbermill",
+    "sym": "L",
+    "color": "green",
+    "spawns": { "group": "GROUP_WASP_FORAGER", "population": [ 1, 3 ], "chance": 10 },
+    "extend": { "flags": [ "SOURCE_CONSTRUCTION", "SOURCE_FABRICATION" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "lumbermill_0_0_roof", "lumbermill_0_1_roof", "lumbermill_1_0_roof", "lumbermill_1_1_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "lumbermill roof",
+    "sym": "L",
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "construction_site",
+    "name": "construction site",
+    "copy-from": "generic_city_building",
+    "sym": "x",
+    "color": "light_gray",
+    "extend": { "flags": [ "SOURCE_CONSTRUCTION", "SOURCE_FABRICATION" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "large_storage_units_3",
+      "large_storage_units_2",
+      "large_storage_units_1",
+      "medium_storage_units_1",
+      "medium_storage_units_2"
+    ],
+    "copy-from": "generic_city_building",
+    "name": "storage units",
+    "sym": "#",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "large_storage_units_roof_3",
+      "large_storage_units_roof_2",
+      "large_storage_units_roof_1",
+      "medium_storage_units_roof_1",
+      "medium_storage_units_roof_2"
+    ],
+    "copy-from": "generic_city_building",
+    "name": "storage units roof",
+    "sym": "#",
+    "color": "yellow"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "s_air_parking",
+      "s_air_term",
+      "s_air_atc",
+      "s_air_hangars",
+      "s_air_hangars_roof",
+      "s_air_term_roof",
+      "s_air_atc_2",
+      "s_air_atc_3"
+    ],
+    "name": "private airport",
+    "sym": "A",
+    "color": "cyan",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "s_air_helicopter_pad" ],
+    "name": "helicopter pad",
+    "sym": "H",
+    "color": "cyan",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2
+  }
+]

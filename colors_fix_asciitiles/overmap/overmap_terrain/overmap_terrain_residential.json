@@ -1,0 +1,58 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "urban_13_3",
+      "urban_13_4",
+      "urban_13_5",
+      "urban_13_6",
+      "urban_13_7",
+      "urban_13_8",
+      "urban_13_9",
+      "urban_13_10",
+      "urban_13_11",
+      "urban_13_12"
+    ],
+    "copy-from": "generic_city_house",
+    "name": "dense urban",
+    "sym": "v",
+    "color": "white",
+    "see_cost": 40
+  },
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_city_trailerpark",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "trailer park",
+    "sym": "#",
+    "color": "white",
+    "extend": { "flags": [ "GENERIC_LOOT" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "emptyresidentiallot",
+    "copy-from": "generic_city_building",
+    "name": "empty residential lot",
+    "sym": "O",
+    "color": "green",
+    "extend": { "flags": [ "GENERIC_LOOT" ] }
+  },
+  {
+    "id": "derelict_property",
+    "type": "overmap_terrain",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "derelict property",
+    "sym": "X",
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "bunker_shop_g",
+    "name": "derelict property",
+    "sym": "X",
+    "color": "brown",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2
+  }
+]
